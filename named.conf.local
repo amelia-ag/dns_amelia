@@ -1,0 +1,13 @@
+zone "aules.com" {
+    type master;
+    file "/etc/bind/db.aules.com";
+};
+
+zone "estacions.aules.com" {
+        type master;
+        file "/etc/bind/db.estacions.aules.com";
+};
+zone "158.18.10.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.158.18.10";
+};
